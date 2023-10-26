@@ -21,6 +21,8 @@ export class PlayerController extends Component {
   private _targetPos: Vec3 = new Vec3();
 
   start() {
+    console.log("ccc");
+
     input.on(Input.EventType.MOUSE_UP, this.onMouseUp, this);
   }
 
